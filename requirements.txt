@@ -1,0 +1,14 @@
+torch>=2.0
+torchvision>=0.15
+torchaudio>=2.0
+opencv-python
+Pillow
+albumentations
+tqdm
+scikit-learn
+matplotlib
+seaborn
+pandas
+transformers
+timm
+grad-cam
