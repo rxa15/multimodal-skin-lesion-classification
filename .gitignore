@@ -1,3 +1,4 @@
 # ignore all files in any directory named models/
 **/__pycache__/
 **/dataset
+**/*.pth

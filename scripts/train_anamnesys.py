@@ -99,3 +99,6 @@ for epoch in range(num_epochs):
     val_accuracy = correct_predictions.double() / total_predictions
 
     print(f"Validation Loss: {val_loss:.4f}, Validation Accuracy: {val_accuracy:.4f}")
+
+torch.save(model.state_dict(), "skin_image_model.pth")
+print("Model saved to 'skin_image_model.pth'")
